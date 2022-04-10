@@ -46,11 +46,11 @@ question.value = '';
 answer.value = '';
 
 }
-// function delFlashcards(){
-// 	localStorage.clear();
-// 	flashcards.innerHTML = '';
-// 	contentArray = [];
-// }
+function delFlashcards(){
+	localStorage.clear();
+	flashcards.innerHTML = '';
+	contentArray = [];
+}
 
 function showCreateCardBox(){
 	createBox.style.display = "block";
