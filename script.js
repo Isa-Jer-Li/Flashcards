@@ -52,6 +52,15 @@ function delFlashcards(){
 	contentArray = [];
 }
 
+function delOneCard() {
+	contentArray.pop()
+	flashcards.innerHTML = '';
+	for (let i = 0; i < contentArray.length; i++) {
+		divMaker(contentArray[i]);
+		console.log(contentArray)
+	}
+}
+
 function showCreateCardBox(){
 	createBox.style.display = "block";
 }
@@ -59,4 +68,21 @@ function showCreateCardBox(){
 function hideCreateBox() {
 	createBox.style.display = "none";
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
