@@ -7,9 +7,9 @@ let contentArray = localStorage.getItem('items') ? JSON.parse(localStorage.getIt
 
 contentArray.forEach(divMaker);
 function divMaker(text) {
-	var div = document.createElement("div");
-	var h2_question = document.createElement("h2");
-	var h2_answer = document.createElement("h2");
+	let div = document.createElement("div");
+	let h2_question = document.createElement("h2");
+	let h2_answer = document.createElement("h2");
 
 	div.className = 'flashcard';
 
